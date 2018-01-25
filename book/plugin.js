@@ -10,7 +10,7 @@ require(['gitbook', 'jQuery'], function (gitbook, $) {
   }
 
   gitbook.events.bind('start', function (e, config) {
-    links = config.links.links || []
+    links = config.linkz.links || []
   })
 
   gitbook.events.bind('page.change', function () {
